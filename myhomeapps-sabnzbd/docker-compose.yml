@@ -1,10 +1,10 @@
 version: "3.7"
 
 services:
-  # app_proxy:
-  #   environment:
-  #     APP_HOST: myhomeapps-sabnzbd_server_1
-  #     APP_PORT: 9797
+  app_proxy:
+    environment:
+      APP_HOST: myhomeapps-sabnzbd_server_1
+      APP_PORT: 9797
   server:
     image: lscr.io/linuxserver/sabnzbd:latest
     environment:
