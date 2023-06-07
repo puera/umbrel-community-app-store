@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: myhomeapps-sabnzbd
+category: Networking
+name: Sabnzbd
+version: "4.0.1-ls110 "
+tagline: Client Downloader
+icon: https://sabnzbd.org/images/logo-full.svg
+description: >-
+  Sabnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
+developer: Sabnzbd
+website: https://github.com/sabnzbd/sabnzbd
+dependencies: []
+repo: https://github.com/linuxserver/docker-sabnzbd
+support: https://github.com/sabnzbd/sabnzbd
+port: 9797
+gallery:
+  - https://sabnzbd.org/images/logo-full.svg
+path: /
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
+releaseNotes: >-
+  bug fixes
+submitter: linuxserver
+submission: https://github.com/linuxserver/docker-sabnzbd/commit/444da02e31823289c4d4ca6ab407442bf6719e94
