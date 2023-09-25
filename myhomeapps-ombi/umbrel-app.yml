@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: myhomeapps-ombi
+category: media
+name: Ombi
+version: "4.43.5-ls167"
+tagline: Media Discovery
+icon: https://avatars.githubusercontent.com/u/76852098?s=48&v=4
+description: >-
+  Ombi is your friendly media request tool, automatically syncs with your media servers! Don't worry, it's grandma friendly, and more importantly; has wife approval certification 😂
+developer: Ombi
+website: https://github.com/Ombi-app/Ombi
+dependencies: []
+repo: https://github.com/linuxserver/docker-ombi
+support: https://github.com/Ombi-app/Ombi
+port: 5056
+gallery:
+  - https://camo.githubusercontent.com/f873a421b08222696040c70599dd28a8f61dc7cfeaded7a0dfb7245a921c3595/687474703a2f2f692e696d6775722e636f6d2f7151734e3738552e706e67
+path: /
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+releaseNotes: >-
+  bug fixes
+submitter: linuxserver
+submission: sha256:0b512522e70d5418a393d60c3bc52dd01b519d95bf96528bfd53ee87a13c5312
